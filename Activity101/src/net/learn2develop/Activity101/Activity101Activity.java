@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Application;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.view.Window;
 
 public class Activity101Activity extends Activity {
@@ -54,5 +55,9 @@ public class Activity101Activity extends Activity {
     protected void onDestroy() {
         super.onDestroy();
         Log.d(tag,"In the onDestroy() event");
+    }
+
+    public void onClick(View view){
+        showDialog(0);
     }
 }

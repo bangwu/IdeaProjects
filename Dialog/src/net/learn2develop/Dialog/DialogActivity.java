@@ -3,6 +3,7 @@ package net.learn2develop.Dialog;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.View;
@@ -54,5 +55,21 @@ public class DialogActivity extends Activity {
                         }).create();
         }
         return null;
+    }
+
+    public void btn2_onClick(View v){
+        final ProgressDialog dialog=ProgressDialog.show(
+                this,"Dialog something","Please wait...",true);
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(5000);
+                    dialog.dismiss();
+                }catch (InterruptedException e){
+                    e.printStackTrace();
+                }
+            }
+        }).start();
     }
 }

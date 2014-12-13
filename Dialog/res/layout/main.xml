@@ -11,5 +11,11 @@
             android:text="@string/btn_name"
             android:onClick="onClick"
             />
+    <Button
+            android:id="@+id/btn_dialog2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn2_name"
+            android:onClick="btn2_onClick"/>
 </LinearLayout>
 

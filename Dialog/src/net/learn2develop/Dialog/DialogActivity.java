@@ -24,7 +24,7 @@ public class DialogActivity extends Activity {
     public void onClick(View v){
         showDialog(0);
     }
-    
+
     @Override
     protected Dialog onCreateDialog(int id) {
         switch (0){

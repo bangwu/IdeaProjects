@@ -44,18 +44,18 @@
       <file leaf-file-name="DialogActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/net/learn2develop/Dialog/DialogActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.28959277" vertical-offset="518" max-vertical-offset="960">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.6606335" vertical-offset="518" max-vertical-offset="960">
+              <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#661#662#0" expanded="true" />
                 <element signature="e#690#691#0" expanded="true" />
-                <element signature="e#1026#1352#0" expanded="true" />
-                <element signature="e#1351#1352#0" expanded="true" />
-                <element signature="e#1406#1736#0" expanded="true" />
-                <element signature="e#1735#1736#0" expanded="true" />
-                <element signature="e#1804#2192#0" expanded="true" />
-                <element signature="e#2191#2192#0" expanded="true" />
+                <element signature="e#1022#1348#0" expanded="true" />
+                <element signature="e#1347#1348#0" expanded="true" />
+                <element signature="e#1402#1732#0" expanded="true" />
+                <element signature="e#1731#1732#0" expanded="true" />
+                <element signature="e#1800#2188#0" expanded="true" />
+                <element signature="e#2187#2188#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -460,18 +460,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/learn2develop/Dialog/DialogActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.28959277" vertical-offset="518" max-vertical-offset="960">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.6606335" vertical-offset="518" max-vertical-offset="960">
+          <caret line="54" column="9" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#661#662#0" expanded="true" />
             <element signature="e#690#691#0" expanded="true" />
-            <element signature="e#1026#1352#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1406#1736#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
-            <element signature="e#1804#2192#0" expanded="true" />
-            <element signature="e#2191#2192#0" expanded="true" />
+            <element signature="e#1022#1348#0" expanded="true" />
+            <element signature="e#1347#1348#0" expanded="true" />
+            <element signature="e#1402#1732#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
+            <element signature="e#1800#2188#0" expanded="true" />
+            <element signature="e#2187#2188#0" expanded="true" />
           </folding>
         </state>
       </provider>

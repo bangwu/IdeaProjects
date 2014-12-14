@@ -3,4 +3,5 @@
     <string name="app_name">Dialog</string>
     <string name="btn_name">Click to display a dialog</string>
     <string name="btn2_name">Click to display a progress dialog</string>
+    <string name="btn3_name">Click to display a detail dialog</string>
 </resources>

@@ -17,5 +17,12 @@
             android:layout_height="wrap_content"
             android:text="@string/btn2_name"
             android:onClick="btn2_onClick"/>
+    <Button
+            android:id="@+id/btn_dialog3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn3_name"
+            android:onClick="btn3_onClick"
+            />
 </LinearLayout>
 

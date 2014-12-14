@@ -4,4 +4,6 @@
     <string name="main_textView_test">Hello World, UsingIntentActivity</string>
     <string name="second_textView_text">This is the Second Activity</string>
     <string name="main_btn1_text">Display second activity</string>
+    <string name="second_TextView_UserName">Name</string>
+    <string name="second_btn1_text">OK</string>
 </resources>

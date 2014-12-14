@@ -15,7 +15,6 @@ public class UsingIntentActivity extends Activity {
         setContentView(R.layout.main);
     }
     public void btn1_onClick(View view){
-        Intent intent=new Intent("net.learn2develop.SecondActivity");
-        startActivity(intent);
+        startActivity(new Intent("net.learn2develop.UsingIntent.SecondActivity"));
     }
 }

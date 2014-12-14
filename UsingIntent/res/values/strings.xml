@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">UsingIntent</string>
+    <string name="main_textView_test">Hello World, UsingIntentActivity</string>
+    <string name="second_textView_text">This is the Second Activity</string>
+    <string name="main_btn1_text">Display second activity</string>
 </resources>

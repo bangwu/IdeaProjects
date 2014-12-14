@@ -13,9 +13,9 @@
             </intent-filter>
         </activity>
         <activity android:name="SecondActivity"
-                  android:label="Second">
+                  android:label="SecondActivity">
             <intent-filter>
-                <action android:name="net.learn2develop.SecondActivity"/>
+                <action android:name="SecondActivity"/>
                 <category android:name="android.intent.category.default"/>
             </intent-filter>
         </activity>

@@ -1,7 +1,9 @@
 package net.learn2develop.UsingIntent;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class UsingIntentActivity extends Activity {
     /**
@@ -11,5 +13,9 @@ public class UsingIntentActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+    }
+    public void btn1_onClick(View view){
+        Intent intent=new Intent("net.learn2develop.SecondActivity");
+        startActivity(intent);
     }
 }

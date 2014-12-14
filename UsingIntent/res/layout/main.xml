@@ -7,7 +7,13 @@
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World, UsingIntentActivity"
+            android:text="@string/main_textView_test"
             />
+    <Button
+            android:id="@+id/main_btn1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_btn1_text"
+            android:onClick="btn1_onClick"/>
 </LinearLayout>
 

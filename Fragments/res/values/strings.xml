@@ -2,4 +2,5 @@
 <resources>
     <string name="app_name">Fragments</string>
     <string name="frag1_TextView_Text">This is fragment #1</string>
+    <string name="frag2_TextView_Text">This is fragment #2</string>
 </resources>

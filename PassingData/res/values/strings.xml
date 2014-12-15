@@ -3,4 +3,5 @@
     <string name="app_name">PassingData</string>
     <string name="btn1_name">Click to go to second Activity</string>
     <string name="second_name">SecondActivity</string>
+    <string name="textView_text">Welcome to Second Activity</string>
 </resources>

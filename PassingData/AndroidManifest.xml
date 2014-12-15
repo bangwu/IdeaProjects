@@ -12,5 +12,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity android:name=".SecondActivity"
+                  android:label="@string/second_name">
+            <intent-filter>
+                <action android:name="net.learn2develop.PassingData.SecondActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
 </manifest>

@@ -16,7 +16,7 @@ public class PassingDataActivity extends Activity {
     }
 
     public void btn1_onClick(View view) {
-        new Intent(this, SecondActivity.class);
-
+        Intent intent = new Intent(this, SecondActivity.class);
+        startActivity(intent);
     }
 }

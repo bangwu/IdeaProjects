@@ -11,4 +11,11 @@
             android:text="@string/frag2_TextView_Text"
             android:textColor="#000000"
             android:textSize="25sp"/>
+    <Button
+            android:id="@+id/btnGetText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get Text in Fragment #1"
+            android:textColor="#000000"
+            android:onClick="onClick"/>
 </LinearLayout>

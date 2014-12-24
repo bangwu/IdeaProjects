@@ -19,9 +19,9 @@ public class SecondActivity extends Activity {
 
     public void second_btn1_onClick(View view) {
         Intent intent = new Intent();
-        EditText text_userName= (EditText) findViewById(R.id.text_userName);
+        EditText text_userName = (EditText) findViewById(R.id.text_userName);
         intent.setData(Uri.parse(text_userName.getText().toString()));
-        setResult(RESULT_OK,intent);
+        setResult(RESULT_OK, intent);
         finish();
     }
 }

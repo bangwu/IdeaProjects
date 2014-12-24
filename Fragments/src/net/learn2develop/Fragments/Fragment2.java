@@ -16,11 +16,11 @@ public class Fragment2 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        return inflater.inflate(R.layout.fragment2,container,false);
+        return inflater.inflate(R.layout.fragment2, container, false);
     }
 
     @Override
-    public void onStart(){
+    public void onStart() {
         super.onStart();
         Button button = (Button) getActivity().findViewById(R.id.btnGetText);
         button.setOnClickListener(new View.OnClickListener() {
@@ -28,7 +28,7 @@ public class Fragment2 extends Fragment {
             public void onClick(View v) {
 
                 TextView textView = (TextView) getActivity().findViewById(R.id.lb1Fragment1);
-                Toast.makeText(getActivity(),textView.getText(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), textView.getText(), Toast.LENGTH_SHORT).show();
             }
         });
     }

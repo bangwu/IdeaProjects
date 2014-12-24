@@ -28,7 +28,7 @@ public class PassingDataActivity extends Activity {
         bundle.putInt("age2", 35);
 
         intent.putExtras(bundle);
-        startActivityForResult(intent,1);
+        startActivityForResult(intent, 1);
 
     }
 

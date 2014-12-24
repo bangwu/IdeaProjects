@@ -18,20 +18,20 @@ public class SecondActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.secondactivity);
 
-        Toast.makeText(this,getIntent().getStringExtra("str1"),Toast.LENGTH_SHORT).show();
-        Toast.makeText(this,getIntent().getStringExtra("age1"),Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getIntent().getStringExtra("str1"), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, getIntent().getStringExtra("age1"), Toast.LENGTH_SHORT).show();
 
-        Bundle bundle=getIntent().getExtras();
+        Bundle bundle = getIntent().getExtras();
 
-        Toast.makeText(this,bundle.getString("str2"),Toast.LENGTH_SHORT).show();
-        Toast.makeText(this,String.valueOf(bundle.getInt("age2")),Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, bundle.getString("str2"), Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, String.valueOf(bundle.getInt("age2")), Toast.LENGTH_SHORT).show();
     }
 
-    public void onClick(View view){
-        Intent intent=new Intent();
-        intent.putExtra("age3","45");
+    public void onClick(View view) {
+        Intent intent = new Intent();
+        intent.putExtra("age3", "45");
         intent.setData(Uri.parse("Something passed back to main activity"));
-        setResult(RESULT_OK,intent);
+        setResult(RESULT_OK, intent);
         finish();
     }
 }

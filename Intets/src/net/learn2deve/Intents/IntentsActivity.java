@@ -30,4 +30,10 @@ public class IntentsActivity extends Activity {
         Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("geo:37.8888,-122.4816"));
         startActivity(intent);
     }
+
+    public void onClickShowMyBrowser(View view){
+        Intent intent=new Intent(this,BrowserActivity.class);
+        intent.setData(Uri.parse("http://www.baidu.com"));
+        startActivity(intent);
+    }
 }

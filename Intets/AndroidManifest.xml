@@ -12,5 +12,14 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".BrowserActivity"
+                  android:label="Browser">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="net.learn2develop.Intents.BrowserActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="http"/>
+            </intent-filter>
+        </activity>
     </application>
 </manifest>

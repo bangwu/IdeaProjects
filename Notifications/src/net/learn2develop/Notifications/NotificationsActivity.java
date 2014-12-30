@@ -21,23 +21,24 @@ public class NotificationsActivity extends Activity {
 //        notificationManager.cancel(getIntent().getExtras().getInt("notificationID"));
     }
 
-    public void onClick(View view){
+    public void onClick(View view) {
         displayNotification();
     }
 
     private void displayNotification() {
-        Intent intent = new Intent(this,NotificationsView.class);
-        intent.putExtra("notificationID",1);
-        PendingIntent pendingIntent = PendingIntent.getActivity(this,0,intent,0);
+        Intent intent = new Intent(this, NotificationsView.class);
+
+        intent.putExtra("notificationID", 1);
+        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, 0);
         NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-        Notification notification = new Notification(R.drawable.ic_launcher,"Reminder:Metting starts in 5 miniutes",System.currentTimeMillis());
+        Notification notification = new Notification(R.drawable.ic_launcher, "Reminder:Metting starts in 5 miniutes", System.currentTimeMillis());
         CharSequence from = "System alarm";
         CharSequence message = "Meeting with customer at 3pm";
 
-        notification.setLatestEventInfo(this,from,message,pendingIntent);
+        notification.setLatestEventInfo(this, from, message, pendingIntent);
 
-        notification.vibrate = new long[]{100,250,100,500};
-        notificationManager.notify(1,notification);
+        notification.vibrate = new long[]{100, 250, 100, 500};
+        notificationManager.notify(1, notification);
 
     }
 }
